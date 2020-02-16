@@ -73,7 +73,7 @@ class ggtasks extends eqLogic {
     }
 
     public function postSave() {
-        $info = $this->getCmd(null, 'ggtasks_tasks');
+       /* $info = $this->getCmd(null, 'ggtasks_tasks');
         if (!is_object($info)) {
             $info = new ggtasksCmd();
             $info->setName(__('Tâches', __FILE__));
@@ -93,7 +93,7 @@ class ggtasks extends eqLogic {
         $refresh->setLogicalId('refresh');
         $refresh->setType('action');
         $refresh->setSubType('other');
-        $refresh->save();        
+        $refresh->save();    */    
         
     }
 
